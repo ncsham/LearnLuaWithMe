@@ -1,5 +1,3 @@
-   ```markdown
-   # Lua Basics
-   `basics-1.lua`:
-   {% include "./basics-1.lua" %}
-   ```
+# Lua Basics
+`basics-1.lua`:
+{% include "./basics-1.lua" %}
