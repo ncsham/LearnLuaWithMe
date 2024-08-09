@@ -8,17 +8,15 @@
         "summary": "SUMMARY.md"
     },
     "plugins": [
-        "include",
+        "include-codeblock",
         "highlight",
         "search"
     ],
     "pluginsConfig": {
-        "include": {
-            "lua": {
-                "process": function(content) {
-            return "```lua\n" + content + "\n```";
-                }
-            }
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "theme": "monokai"
         }
     }
 }
