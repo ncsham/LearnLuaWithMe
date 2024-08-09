@@ -1,5 +1,14 @@
 {
     "plugins": [
-        "include-codeblock"
-    ]
+        "include"
+    ],
+    "pluginsConfig": {
+        "include": {
+            "lua": {
+                "process": function(content) {
+                    return "```lua\n" + content + "\n```";
+                }
+            }
+        }
+    }
 }
