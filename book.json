@@ -8,15 +8,7 @@
         "summary": "SUMMARY.md"
     },
     "plugins": [
-        "include-codeblock",
         "highlight",
         "search"
-    ],
-    "pluginsConfig": {
-        "include-codeblock": {
-            "template": "ace",
-            "unindent": true,
-            "theme": "monokai"
-        }
-    }
+    ]
 }
