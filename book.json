@@ -1,12 +1,22 @@
 {
+    "title": "Learn Lua With Me",
+    "description": "A Guide to Lua with code examples",
+    "author": "NCSham",
+    "language": "en",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md"
+    },
     "plugins": [
-        "include"
+        "include",
+        "highlight",
+        "search"
     ],
     "pluginsConfig": {
         "include": {
             "lua": {
                 "process": function(content) {
-                    return "```lua\n" + content + "\n```";
+            return "```lua\n" + content + "\n```";
                 }
             }
         }
