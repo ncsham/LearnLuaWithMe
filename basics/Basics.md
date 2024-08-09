@@ -2,5 +2,4 @@
 
 {% code title="basics-1.lua" %}
 ```lua
-{% include "./basics/basics-1.lua" %}
-```
+{% include-code "./basics/basics-1.lua" lang="lua" %}
