@@ -1,7 +1,6 @@
 ## Learning Lua
 ### Introduction
 - This Repo's most content is taken from `Programming in Lua 4th Ed. by Roberto Lerusalimschy of Lua.Org`
--
 ### Get Lua
 - [Installation](#installation)
   - `wget https://www.lua.org/ftp/lua-5.4.7.tar.gz`
