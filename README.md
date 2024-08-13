@@ -20,3 +20,4 @@
   - Each piece of code that Lua executes, such as a file or a single line in interactive mode, is called a chunk.
     - Run chunks by starting lua in interactive mode directly with `lua`
     - Run chunks by `dofile("<filename>")` inside another lua script or in an interactive session
+    - Run chunks by adding `#!/usr/bin/env lua` at the beginning of a lua script , the set executable bit for script via `chmod +x basics-1.lua` ,and run it with name of script eg `./basics-1.lua`
