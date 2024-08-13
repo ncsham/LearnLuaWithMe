@@ -1,4 +1,5 @@
 {
+    "gitbook": "3.x.x",
     "title": "Learn Lua With Me",
     "description": "A Guide to Lua with code examples",
     "author": "NCSham",
@@ -9,7 +10,15 @@
     },
     "plugins": [
         "include-codeblock",
+        "ace",
         "highlight",
         "search"
-    ]
+    ],
+    "pluginsConfig": {
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "theme": "monokai"
+        }
+    }
 }

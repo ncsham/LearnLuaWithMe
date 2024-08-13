@@ -1,6 +1,5 @@
 **Basics**
 
-{% code title="basics-1.lua" overflow="wrap" lineNumbers="true" %}
-```lua
-{% include-code "./basics-1.lua" %}
+{% code title="1-comments.lua" overflow="wrap" lineNumbers="true" %}
+[Comments](./1-comments.lua)
 {% endcode %}
