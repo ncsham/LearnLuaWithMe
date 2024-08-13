@@ -1,2 +1,2 @@
 **Basics**
-[include, lang:"lua"](./1-comments.lua)
+[import, lang:"lua"](./1-comments.lua)
